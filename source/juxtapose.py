@@ -1,0 +1,19 @@
+# defining numbers to compare
+x = int(input("HOW MANY GHOULS, MY PRECIOUS GHOULS, ARE IN THE PLAINS?"))
+y = int (input("HOW MANY WARFRAME MAGGOTS ARE RUNNING AROUND ON MYYYYY GHOULS' PLAY-PLACE?"))
+
+#lil math
+dX = (x-(y*5)) # x is equal to x divided by half of y
+
+if dX < 0:
+    dX = 0
+
+# testing time is now
+if dX > y:
+    print(f"THE KUVA! I FEEL IT! MY GHOULS NEVER LOSE! HAHAHHAHAHAHAHAHAHHAHAHA! {y:,} WARFRAMES CANT KILL MY  {int(x):,} GHOULS!")
+
+elif dX < y:
+    print(f"THOSE BLASTED WARFRAMES! MY GHOULS! MY KUVA! WHYYYYYYYYYYYYYYYYY! YOU MAGGOTS! CAN'T YOU DO ANYTHING RIGHT? HOW COULD YOU KILL {int(x):,} OF MY PRECIOUS, HARMLESS, BEAUTIFUL GHOULS?")
+
+else:
+    print("WHAT A BORE! NOOOOO HOW DARE THERE BE A STALEMATE!")
